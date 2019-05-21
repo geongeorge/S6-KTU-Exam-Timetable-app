@@ -37,7 +37,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 # To build for android
 
 ```
-vue-cli-service cordova-build-android
+npm run cordova-build-android
 ```
 
 saved to `/src-cordova/platforms/android/app/build/outputs/apk/release/`
