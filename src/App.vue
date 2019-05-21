@@ -1,28 +1,32 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-app dark>
+    <v-toolbar app color="light-blue" dark>
+      <v-toolbar-title class="headline text-uppercase">
+        <span>TIME</span>
+        <span class="font-weight-light">TABLE</span>
+      </v-toolbar-title>
+    </v-toolbar>
+
+    <v-content mt-4>
+      <TimeTable />
+    </v-content>
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/HelloWorld'
+import TimeTable from './components/TimeTable'
 
 export default {
-  name: 'app',
+  name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    TimeTable
+  },
+  data () {
+    return {
+      //
+    }
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
