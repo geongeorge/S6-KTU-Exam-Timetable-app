@@ -1,5 +1,11 @@
 # calender-app
 
+S6 CSE KTU 2019 exam calender
+..and yes it only works for this specific purpose and the code is crap and specific
+
+![screenshot](https://i.imgur.com/yFSpagF.jpg)
+
+
 ## Project setup
 ```
 npm install
